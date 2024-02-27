@@ -3059,3 +3059,61 @@ Stack trace:
 #6 /Users/alexandrepichard/Local Sites/planty/app/public/index.php(17): require('/Users/alexandr...')
 #7 {main}
   thrown in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php on line 17
+[27-Feb-2024 10:17:10 UTC] PHP Parse error:  syntax error, unexpected token "if", expecting "," or ";" in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php on line 21
+[27-Feb-2024 10:25:11 UTC] PHP Warning:  Object of class stdClass could not be converted to int in /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/post.php on line 6532
+[27-Feb-2024 10:25:11 UTC] PHP Warning:  Object of class stdClass could not be converted to int in /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/post.php on line 6452
+[27-Feb-2024 10:25:11 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php:20
+Stack trace:
+#0 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(725): load_template('/Users/alexandr...', true, Array)
+#2 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve/page.php(10): get_header()
+#4 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/alexandr...')
+#5 /Users/alexandrepichard/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/alexandr...')
+#6 /Users/alexandrepichard/Local Sites/planty/app/public/index.php(17): require('/Users/alexandr...')
+#7 {main}
+  thrown in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php on line 20
+[27-Feb-2024 10:26:09 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php:20
+Stack trace:
+#0 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(725): load_template('/Users/alexandr...', true, Array)
+#2 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve/page.php(10): get_header()
+#4 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/alexandr...')
+#5 /Users/alexandrepichard/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/alexandr...')
+#6 /Users/alexandrepichard/Local Sites/planty/app/public/index.php(17): require('/Users/alexandr...')
+#7 {main}
+  thrown in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php on line 20
+[27-Feb-2024 10:32:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function filter_logo_variants() in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php:21
+Stack trace:
+#0 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(725): load_template('/Users/alexandr...', true, Array)
+#2 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve/page.php(10): get_header()
+#4 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/alexandr...')
+#5 /Users/alexandrepichard/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/alexandr...')
+#6 /Users/alexandrepichard/Local Sites/planty/app/public/index.php(17): require('/Users/alexandr...')
+#7 {main}
+  thrown in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php on line 21
+[27-Feb-2024 10:33:44 UTC] PHP Fatal error:  Uncaught Error: Class "Logo" not found in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php:21
+Stack trace:
+#0 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(725): load_template('/Users/alexandr...', true, Array)
+#2 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve/page.php(10): get_header()
+#4 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/alexandr...')
+#5 /Users/alexandrepichard/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/alexandr...')
+#6 /Users/alexandrepichard/Local Sites/planty/app/public/index.php(17): require('/Users/alexandr...')
+#7 {main}
+  thrown in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php on line 21
+[27-Feb-2024 10:33:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function filter_logo_variants() in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php:21
+Stack trace:
+#0 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template.php(725): load_template('/Users/alexandr...', true, Array)
+#2 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve/page.php(10): get_header()
+#4 /Users/alexandrepichard/Local Sites/planty/app/public/wp-includes/template-loader.php(106): include('/Users/alexandr...')
+#5 /Users/alexandrepichard/Local Sites/planty/app/public/wp-blog-header.php(19): require_once('/Users/alexandr...')
+#6 /Users/alexandrepichard/Local Sites/planty/app/public/index.php(17): require('/Users/alexandr...')
+#7 {main}
+  thrown in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php on line 21

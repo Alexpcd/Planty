@@ -12,10 +12,11 @@
 <header>
     <div class="header-left">
         <a href="<?php echo home_url( '/' ); ?>">
-       <?php
+    <?php
 // Récupérer l'URL du logo
-$custom_logo_id = get_theme_mod( 'custom_logo' );
-$logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
+    $main_logo = get_theme_mod( 'logo_logo' );
+    $main_logo = json_decode( $main_logo );
+    $logo_url = wp_get_attachment_image_url( $main_logo->light , 'full' );
 
 // Vérifier si un logo est défini
 if ( ! empty( $logo_url ) ) {
@@ -24,11 +25,10 @@ if ( ! empty( $logo_url ) ) {
     echo '</a>';
 } else {
     // Si aucun logo n'est défini, afficher le texte du site
-    echo '<h1><a href="' . esc_url( home_url( '/' ) ) . '">' . get_bloginfo( 'name' ) . '</a></h1>';
+    echo '<a href="' . esc_url( home_url( '/' ) ) . '">' . get_bloginfo( 'name' ) . '</a>';
 }
 ?>
-
-        </a>
+    </a>
         <div class="energy">energy drink</div>
     </div>
     <?php
