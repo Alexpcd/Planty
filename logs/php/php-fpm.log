@@ -50,3 +50,22 @@
 [23-Feb-2024 02:39:43] NOTICE: exiting, bye-bye!
 [26-Feb-2024 12:50:39] NOTICE: fpm is running, pid 49219
 [26-Feb-2024 12:50:39] NOTICE: ready to handle connections
+[28-Feb-2024 19:25:25] NOTICE: Terminating ...
+[28-Feb-2024 19:25:25] NOTICE: Terminating ...
+[28-Feb-2024 19:25:25] NOTICE: exiting, bye-bye!
+[29-Feb-2024 10:38:33] NOTICE: fpm is running, pid 63088
+[29-Feb-2024 10:38:33] NOTICE: ready to handle connections
+[29-Feb-2024 23:53:36] NOTICE: Terminating ...
+[29-Feb-2024 23:53:36] NOTICE: Terminating ...
+[29-Feb-2024 23:53:36] NOTICE: exiting, bye-bye!
+[04-Mar-2024 11:16:48] NOTICE: fpm is running, pid 1893
+[04-Mar-2024 11:16:48] NOTICE: ready to handle connections
+[04-Mar-2024 18:35:03] WARNING: [pool www] child 1898 said into stderr: "error sending mail"
+[04-Mar-2024 18:35:03] WARNING: [pool www] child 1898 said into stderr: "2024/03/04 18:35:03 550 Invalid sender alexandrepichard@alexandres-MacBook-Pro.local"
+[04-Mar-2024 18:35:03] WARNING: [pool www] child 1898 said into stderr: "error sending mail"
+[04-Mar-2024 18:35:03] WARNING: [pool www] child 1898 said into stderr: "2024/03/04 18:35:03 550 Invalid sender alexandrepichard@alexandres-MacBook-Pro.local"
+[04-Mar-2024 18:52:34] NOTICE: Terminating ...
+[04-Mar-2024 18:52:34] NOTICE: Terminating ...
+[04-Mar-2024 18:52:34] NOTICE: exiting, bye-bye!
+[05-Mar-2024 12:10:28] NOTICE: fpm is running, pid 6462
+[05-Mar-2024 12:10:28] NOTICE: ready to handle connections

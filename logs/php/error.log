@@ -3117,3 +3117,4 @@ Stack trace:
 #6 /Users/alexandrepichard/Local Sites/planty/app/public/index.php(17): require('/Users/alexandr...')
 #7 {main}
   thrown in /Users/alexandrepichard/Local Sites/planty/app/public/wp-content/themes/neve-child-master/header.php on line 21
+[04-Mar-2024 17:29:06 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}

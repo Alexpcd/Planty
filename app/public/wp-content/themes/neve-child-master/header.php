@@ -31,6 +31,7 @@ if ( ! empty( $logo_url ) ) {
     </a>
         <div class="energy">energy drink</div>
     </div>
+    <div class="header-right">
     <?php
         wp_nav_menu (array (
             'theme_location' => 'header',
@@ -39,4 +40,5 @@ if ( ! empty( $logo_url ) ) {
             'menu_class' => 'nav-menu',
         ));
     ?>
+    </div>
 </header>
