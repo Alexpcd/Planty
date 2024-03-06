@@ -30,6 +30,13 @@ header {
     display: flex;
     justify-content: space-between;
     height: 5em;
+    max-width: 1440px;
+    width: 100%;
+}
+
+body {
+    max-width: 1440px;
+    overflow-x : hidden !important;
 }
 
 .header-left {
@@ -80,6 +87,7 @@ header {
 
 .footer {
     list-style-type: none;
+    max-width: 1440px;
 }
 
 .footer a {
